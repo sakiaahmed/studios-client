@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StudioSpace - Peer-to-Peer Creative Workspace
 
-## Getting Started
+StudioSpace is a high-performance peer-to-peer marketplace designed for creators, filmmakers, photographers, podcasters, and musicians. Studio owners can list their creative spaces, and fellow creators can discover, filter, and reserve studio slots with transparent pricing and real-time booking management.
 
-First, run the development server:
+## Live Site URL
+**[https://studios-client.vercel.app](https://studios-client.vercel.app)**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+##  Technologies Used
+- **Frontend:** Next.js (App Router), TypeScript, Tailwind CSS, Swiper.js, Lucide Icons
+- **Backend:** Node.js, Express.js, MongoDB
+- **Authentication:** BetterAuth (Google OAuth & Email/Password)
+- **Image Hosting:** ImgBB API
+- **Deployment:** Vercel (Client) & Render (Server)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Key Features
+1. **Dynamic Studio Discovery:** Interactive Swiper hero slider, category filtering, and a fully responsive grid layout for browsing studios.
+2. **Studio Hosting & CRUD:** Authenticated users can add, update, and delete their studio listings using a rich form with ImgBB image uploads.
+3. **Secure Booking System:** Real-time booking modal with date and time selection, and a **Double-Booking Prevention** system (Challenge 2) that blocks overlapping reservations.
+4. **User Dashboard:** A dedicated space for users to view their owned listings ("My Listings") and track or cancel their reservations ("My Bookings").
+5. **Premium UI/UX:** A cinematic dark/light theme toggle (Challenge 3), custom toast notifications via Sonner, skeleton loaders, and a custom 404 page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
